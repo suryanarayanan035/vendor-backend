@@ -24,7 +24,7 @@ export const saveBin = async (
       "macId",
       "binHeight",
       "volume",
-      "organization",
+      "orgid",
       "emptyspace",
       "noOfRacks",
       "var1",
