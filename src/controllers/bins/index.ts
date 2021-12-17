@@ -42,7 +42,7 @@ export const saveBin = async (
       macId,
       binHeight,
       volume,
-      organization,
+      orgid: organization.split("@")[0],
       emptyspace: emptySpace,
       noOfRacks,
       var1,
