@@ -22,9 +22,9 @@ export const saveBin = async (
   try {
     const fields = [
       "macId",
-      "binHeight",
+      "binheight",
       "volume",
-      "orgid",
+      "org id",
       "emptyspace",
       "noOfRacks",
       "var1",
@@ -40,9 +40,9 @@ export const saveBin = async (
     ];
     const values = {
       macId,
-      binHeight,
+      binheight: binHeight,
       volume,
-      orgid: organization.split("@")[0],
+      "org id": organization.split("@")[0],
       emptyspace: emptySpace,
       noOfRacks,
       var1,
