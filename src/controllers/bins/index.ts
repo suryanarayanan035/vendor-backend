@@ -40,7 +40,7 @@ export const saveBin = async (
     ];
     const values = {
       macId,
-      binheight: binHeight,
+      binheight: +binHeight,
       volume,
       "org id": organization.split("@")[0],
       emptyspace: emptySpace,
